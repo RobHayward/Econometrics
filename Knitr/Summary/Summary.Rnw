@@ -12,29 +12,29 @@
 \doublespace
 \maketitle
 % Create a new 1st level heading
-\section{Introduction*}
+\section*{Introduction}
 
 This part of the module has been about the building of economic, financial and investment models.  In most cases the aim is to get a greater understanding of the relationship between variables and to use that to improve decision-making. 
 
 The variable that is the focus of attention, the entity that we would like to understand, is called the \emph{dependent variable}.  The variables that will be used to explain the behaviour of the dependent variable are called the explanatory variables.   It is possible to summarise this relationship mathematically.
 
-\begin{equation}
+\begin{equation}\label{reg}
 y_t = \beta_0 + \beta_1 X_t + \varepsilon_t
 \end{equation}
 
 Where $y_t$ is the dependent variable at time t; $\beta_0$ and $\beta_1$ are coefficients to be estimated; $X_t$ is the explanatory variable at time t; and $\varepsilon$ is an error term that will represent all the other factors that affect the behaviour of the dependent variable.
 
-\section{Ordinary least squares*}
+\section*{Ordinary least squares}
 In this example the return on Bank of America is the phenomenon that we aim to know more about and the return on the S\&P 500 is the variable that will be used to I explain the Bank of America investment. To understand more about the way that the return on the market effects the return on Bank of America,  we would like to estimate the parameters of Equation 1.  That means finding the values of $\beta_0$ and $\beta_1$ that are most likely.   
 
 There are a number of different techniques that can be used to make this estimation.  The easiest, and  in many cases the best, is \emph{ordinary least squares}.  If Bank of America returns are represented by $y$ and the return from an investment in the S\&P 500 is denoted $x$, the relationship can be viewed graphically.  
 
-<<BACR, fig.height=5, echo=FALSE>>=
+<<Reg1, fig.height=5, echo=FALSE, fig.lp="Reg1">>=
 da <- read.csv("../../Data/bac.csv")
 da[,1] <- as.Date(da[,1], format = "%d/%m/%Y")
 BACR <- diff(da$BAC)/da$BAC[-length(da$BAC)]
 SPYR <- diff(da$SPY)/da$SPY[-length(da$SPY)]
-plot(BACR ~ SPYR, main = "BAC return vs SPY return", xlab = "SPYR", ylab = "BACR")
+plot(BACR ~ SPYR, main = "BAC return vs SPY return", pch= 4, xlab = "Market return", ylab = "BAC return")
 abline(h = 0, v = 0)
 @
 
@@ -61,11 +61,15 @@ Taking derivative and re-arranging (see textbook for proof)
 \mathbf{\beta} = \mathbf{(X'X)}^{-1}\mathbf{X'y}
 \end{align*}
 
-\section{OLS results}
+Knowing this is not important for now.  It will be calculated by the software.  It can be useful to understand the analytical solution if you want to know more about the effect of relaxing the OLS assumptions.  You will cover this next year in the Econometrics option. 
 
+\section{OLS results}
+Using that formula, the following solution is found. 
+
+The regresion results are shown in Table \ref{tabref:reg}.  The column \emph{Estimate} shows the estimates of the $\beta_0$ and $\beta_1$ from Equation \ref{reg}.  The estimate for $\beta_0$ is 1.8.  This indicates that, on average, the effect of a 1 percent S\&P 500 return is a 1.8\% return for Bank of America. This is the main information that we require. 
 % latex table generated in R 3.0.2 by xtable 1.7-1 package
 % Wed Dec 25 22:07:07 2013
-\begin{table}[ht]
+\begin{table}[ht]\label{tabref:reg}
 \centering
 \begin{tabular}{rrrrr}
   \hline
@@ -76,8 +80,23 @@ Taking derivative and re-arranging (see textbook for proof)
    \hline
 \end{tabular}
 \end{table}
-The Adjusted $R^2$ is 0.29, therefore nearly 30\% of the BAC returns are explained by the returns of the market.  95\% confidence intervals for the $\beta$ are 1.39 to 2.27. 
+<<Reg2, fig.height=5, fig.align='center', echo=FALSE,fig.lp="Reg2">>=
+plot(BACR ~ SPYR, main = "Scatter plot of BAC and Market Returns", 
+     pch = 4, xlab = "Market Return", ylab = "BAC Return")
+BAC.eq <- lm(BACR ~ SPYR)
+abline(BAC.eq, col = 'red')
+abline(h = 0, v = 0)
+@
 
+The Adjusted $R^2$ is 0.29, therefore nearly 30\% of the BAC returns are explained by the returns of the market.  The \emph{Standard Error} is the estimate of the standard deviation of the estimated coefficient value.  This means that, assuming a normal distribtion, 95\% of the estimates would stand between 2 standard errors of the mean.  Therefore, the 95\% confidence intervals for the $\beta_1$ are 1.39 to 2.27.  This means that under repeated sampling 9\% ofthe estimates of $\beta_1$ should be between these values.  As, if value of $\beta_1$ were really zero, it would be extremly unlikely to get a figure of 1.8\% for this estimate.  The probability of getting this value when it was really zero is in the final column.  This probablity is based on the \emph{t value} which is calculated as
+\begin{equation}
+t = \frac{\hat{\beta_1} - \beta_n}{SE(\hat{\beta_1})}
+\end{equation}
+Where $\hat{\beta_1}$ is the estimate of the coefficient (1.83 in our case), $\beta_n$ is the hypothesised value of the coefficient (zero in our case) and $SE(\hat{\beta_1})$ is the estimate of the standard deviation of the estimates of the coeficient (0.224).  Therefore, 
+\begin{equation}
+t = \frac{1.8 - 0}{0.224} = 8.17
+\end{equation}
+This is the number of standard deviations that the coefficient is away from the hypothesised value of zero.  If the absolute value of the \emph{t-statistic} is more than 2, there is less than 5 chances in 100 that the coefficient would be see when the actual value was zero.  In that situation we say that the coefficient is \emph{statistically different from zero}. 
 Ordinary Least Squares is one way of estimating the model.  Given a number of assumptions, the OLS coefficients are \textbf{BLUE}.  That is the \textbf{B}est \textbf{L}inear \textbf{U}nbiased \textbf{E}stimator.  The assumptions are 
 \begin{enumerate}
 \item The errors have a zero mean
@@ -102,7 +121,7 @@ Assumptions for OLS to be BLUE
 \item We would also like the residuals to be \emph{normally distributed}: so that we can use the known quantiles from the normal distribution to test assertions about the model
 \end{enumerate}
 
-
+If these assumptions do not hold the OLS estimates are not \textbf{BLUE}.  This means that the estiamtes of the coefficients may be biased and inefficient. If they are biased, they will not tend towards the actual value as the sample size is increased; if they are biased, the standard error of the estimate is larger than it should be. This will make the use of confidence intervals problematic. 
 
 
 % Uncomment the following two lines if you want to have a bibliography
