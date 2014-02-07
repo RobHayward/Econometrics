@@ -6,6 +6,7 @@
 \usepackage{setspace}
 \usepackage{amsmath}
 \title{Introduction to Eviews and Ordinary Lease Squares}
+ere
 
 % Start the document
 \begin{document}
