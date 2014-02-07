@@ -1,0 +1,7 @@
+\frametitle{Samples}
+You can sample from a smaller range of data.  This can be used to test the stabilty of the parameters or is necessary to compute lags.
+\begin{verbatim}
+smpl 2000.01 2012.12
+@first @last
+@all
+\end{verbatim}

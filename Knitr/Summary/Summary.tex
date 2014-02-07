@@ -1,0 +1,179 @@
+\documentclass{article}\usepackage[]{graphicx}\usepackage[]{color}
+%% maxwidth is the original width if it is less than linewidth
+%% otherwise use linewidth (to make sure the graphics do not exceed the margin)
+\makeatletter
+\def\maxwidth{ %
+  \ifdim\Gin@nat@width>\linewidth
+    \linewidth
+  \else
+    \Gin@nat@width
+  \fi
+}
+\makeatother
+
+\definecolor{fgcolor}{rgb}{0.345, 0.345, 0.345}
+\newcommand{\hlnum}[1]{\textcolor[rgb]{0.686,0.059,0.569}{#1}}%
+\newcommand{\hlstr}[1]{\textcolor[rgb]{0.192,0.494,0.8}{#1}}%
+\newcommand{\hlcom}[1]{\textcolor[rgb]{0.678,0.584,0.686}{\textit{#1}}}%
+\newcommand{\hlopt}[1]{\textcolor[rgb]{0,0,0}{#1}}%
+\newcommand{\hlstd}[1]{\textcolor[rgb]{0.345,0.345,0.345}{#1}}%
+\newcommand{\hlkwa}[1]{\textcolor[rgb]{0.161,0.373,0.58}{\textbf{#1}}}%
+\newcommand{\hlkwb}[1]{\textcolor[rgb]{0.69,0.353,0.396}{#1}}%
+\newcommand{\hlkwc}[1]{\textcolor[rgb]{0.333,0.667,0.333}{#1}}%
+\newcommand{\hlkwd}[1]{\textcolor[rgb]{0.737,0.353,0.396}{\textbf{#1}}}%
+
+\usepackage{framed}
+\makeatletter
+\newenvironment{kframe}{%
+ \def\at@end@of@kframe{}%
+ \ifinner\ifhmode%
+  \def\at@end@of@kframe{\end{minipage}}%
+  \begin{minipage}{\columnwidth}%
+ \fi\fi%
+ \def\FrameCommand##1{\hskip\@totalleftmargin \hskip-\fboxsep
+ \colorbox{shadecolor}{##1}\hskip-\fboxsep
+     % There is no \\@totalrightmargin, so:
+     \hskip-\linewidth \hskip-\@totalleftmargin \hskip\columnwidth}%
+ \MakeFramed {\advance\hsize-\width
+   \@totalleftmargin\z@ \linewidth\hsize
+   \@setminipage}}%
+ {\par\unskip\endMakeFramed%
+ \at@end@of@kframe}
+\makeatother
+
+\definecolor{shadecolor}{rgb}{.97, .97, .97}
+\definecolor{messagecolor}{rgb}{0, 0, 0}
+\definecolor{warningcolor}{rgb}{1, 0, 1}
+\definecolor{errorcolor}{rgb}{1, 0, 0}
+\newenvironment{knitrout}{}{} % an empty environment to be redefined in TeX
+
+\usepackage{alltt}
+% Uncomment the following line to allow the usage of graphics (.png, .jpg)
+%\usepackage[pdftex]{graphicx}
+% Comment the following line to NOT allow the usage of umlauts
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+
+% Start the document
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\begin{document}
+
+% Create a new 1st level heading
+\section{Introduction}
+
+This part of the module has been about the building of economic, financial and investment models.  In most cases the aim is to get a greater understanding of the relationship between variables are to use that to improve decision-making. 
+
+The variable that is the focus of attention, the entity that we would like to understand, is called the \emph{dependent} variable.  The variables that will be used to explain the behaviour of the dependent variable are called the explanatory variables.   It is possible to summarise this relationship mathematically.
+
+\begin{equation}
+y_t = \beta_{1, t} + \beta_{2, t} X_t + \varepsilon_t
+\end{equation}
+
+Where $y_t$ is the dependent variable at time t; $\beta_1$ and $\beta_2$ are coefficients to be estimated; $X_t$ is the explanatory variable; and $\varepsilon$ is an error term that will represent all the other factors that affect the behaviour of the dependent variable that is the object of attention.
+
+\section{Ordinary least squares}
+In this example the return on Bank of America is the phenomenon that we aim to know more about and the return on the S\&P 500 is the variable that will be used to I understand the return from this bank investment. To understand more about the way that the return on the market effects the return on Bank of America,  we would like to estimate the parameters of Equation 1.  That means finding the values of $\beta_1$ and $\beta_2$ that are most likely.   
+
+There are a number of different techniques that can be used to make this estimation.  The easiest, and  in many cases the best, is \emph{ordinary least squares}.  If Bank of America returns are represented by $y$ and the return from an investment in the S\&P 500 is denoted $x$, the relationship can be viewed graphically.  
+
+Figure 1 goes here
+
+The aim is to draw a line that will express this relationship between $x$ and$y$.  If we were to draw a line arbitrarily to represent the relationship, it could be denoted
+
+\begin{equation}
+y_t = a + bX_t + u_t
+\end{equation}
+
+The difference between Equation 1 and Equation 2 is that the former is a theoretical model and the latter is an actual equation.   The variable $\varepsilon$ in Equation 1 is the \emph{error term} that represents all the factors that have not been included in the model; $u_t$ is the \emph{residual}  that is the difference between the estimated value of the dependent variable and the actual vale of the dependent variable.  As such, a good model would be one that makes the residuals as small as possible.
+
+
+However, if the residuals are just added together the positive and negative numbers will just cancel each other out.  Therefore
+ it is necessary to square the residuals before the addition to create the \emph{sum of squared residuals} (SSR).  There are two main ways that the model with the smallest squared residuals can be identified: the first is to choose an equation, sum the residuals and repeat this process until a minimum has been found; the second , which can be used in this case but not all of them, is to use analytical methods to calculate the coefficients that make the minimum.
+
+The first method is easily performed by a computer and will not be discussed in detail here.  The second uses calculus.  From Equation 2,
+
+\begin{equation}
+u_t = y_t - a - bx_t
+\end{equation}
+and
+\begin{equation}
+u^2 = (y_t - a - bx_t)(y_t -a - bx_t)
+\end{equation}
+
+so,
+\begin{equation}
+SSR = (y_t a - bx_t)^2\\
+\end{equation}
+
+Therefore, take the derivatives to get 
+\begin{align*}
+\frac{\delta u}{\delta a} = &\sum_{t=1}^{t=T} 2(y_t - a - bX_t) =& 0\\
+\frac{\delta u}{\delta b} = &\sum_{t=1}^{t=T} 2x_t(y_t - a - bx_t) =& 0
+\end{align*}
+
+Re-arrange to get 
+
+\begin{align*}
+\hat{b} =& \frac{\sum x \sum y - \frac{\sum x \sum y}{T}}{\sum x^2 - \frac{(\sum x)^2}{T}}\\
+\hat{a} = & \bar{Y} - b\bar{X}
+\end{align*}
+
+In matrix form
+\begin{align*}
+\mathbf{y} =& \mathbf{X \beta} + \mathbf{u}\\
+\mathbf{u} =& \mathbf{y} - \mathbf{X\beta}\\
+\mathbf{u}` \mathbf{u} =& (\mathbf{X \beta} + \mathbf{u})`(\mathbf{X \beta} + \mathbf{u})\\ 
+\end{align*}
+
+Taking derivative and re-arranging (see textbook for proof)
+\begin{align*}
+\mathbf{\beta} = \mathbf{(X`X)}^{-1}\mathbf{X`y}
+\end{align*}
+
+\section{OLS results}
+
+% latex table generated in R 3.0.2 by xtable 1.7-1 package
+% Wed Dec 25 22:07:07 2013
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrr}
+  \hline
+ & Estimate & Std. Error & t value & Pr($>$$|$t$|$) \\ 
+  \hline
+(Intercept) & 0.0130 & 0.0105 & 1.23 & 0.2203 \\ 
+  SPY.R & 1.8303 & 0.2240 & 8.17 & 0.0000 \\ 
+   \hline
+\end{tabular}
+\end{table}
+The Adjusted $R^2$ is 0.29, therefore nearly 30\% of the BAC returns are explained by the returns of the market.  95\% confidence intervals for the $\beta$ are 1.39 to 2.27. 
+
+Ordinary Least Squares is one way of estimating the model.  Given a number of assumptions, the OLS coefficients are \textbf{BLUE}.  That is the \textbf{B}est \textbf{L}inear \textbf{U}nbiased \textbf{E}stimator.  The assumptions are 
+\begin{enumerate}
+\item The errors have a zero mean
+\item The errors are \emph{independent and identically distributed} (iid)
+\begin{itemize}
+\item No serial correlation (errors related to each other)
+\item Hetroskedasticity (some errors are systematically larger than others)
+\end{itemize}
+\item Explanatory variables are not related to the error
+\item Additionally, assume \emph{normal errors} if we want to use normal assumption to compute \emph{t-tests} of coefficients
+\end{enumerate}
+
+\section{Tests of OLS Assumptions}
+More can be found in the Eviews Help File \emph{Why Test Residuals? Part 2 p. 159}
+Assumptions for OLS to be BLUE
+\begin{enumerate}
+\item Residuals should be iid
+\begin{itemize}
+\item No auto or serial correlation: residuals are \emph{independent}
+\item No Hetroskedasticity: residuals are \emph{identically distributed}
+\end{itemize}
+\item We would also like the residuals to be \emph{normally distributed}: so that we can use the known quantiles from the normal distribution to test assertions about the model
+\end{enumerate}
+
+
+% Uncomment the following two lines if you want to have a bibliography
+%\bibliographystyle{alpha}
+%\bibliography{document}
+
+\end{document}
