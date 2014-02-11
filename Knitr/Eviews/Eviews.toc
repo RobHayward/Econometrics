@@ -1,4 +1,4 @@
-\beamer@endinputifotherversion {3.19pt}
+\beamer@endinputifotherversion {3.26pt}
 \beamer@sectionintoc {1}{Import data}{3}{0}{1}
 \beamer@sectionintoc {2}{$R^2$}{8}{0}{2}
 \beamer@sectionintoc {3}{Confidence intervals on coefficients}{13}{0}{3}
