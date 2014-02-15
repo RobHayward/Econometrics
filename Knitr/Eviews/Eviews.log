@@ -1,26 +1,24 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdflatex 2012.9.19)  14 JAN 2014 06:46
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2013.6.18)  11 FEB 2014 08:38
 entering extended mode
 **Eviews.tex
-
-("C:\Users\Toshiba\Google Drive\Teaching\ML211\Econometrics\Knitr\Eviews\Eviews
-.tex"
+(C:\Users\rh49\Projects\Econometrics\Knitr\Eviews\Eviews.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
 croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
-lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
-ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
-vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
-an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
-romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
-sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
-senglishmax, welsh, loaded.
+lician, german, german-x-2012-05-30, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, latin, latvian,
+ lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerman, n
+german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
+ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
+an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
+ishmax, welsh, loaded.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\beamer.cls"
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\beamerbasercs.sty"
-Package: beamerbasercs 2012/05/13 (rcs-revision dbbb17cd1fba)
+Package: beamerbasercs 2013/01/04 (rcs-revision 9a97a4eee358)
 )
-Document Class: beamer 2011/09/12 development version 3.19 A class for typesett
-ing presentations (rcs-revision 70f9d8411e54)
+Document Class: beamer 2013/01/04 3.26 A class for typesetting presentations (r
+cs-revision e81e0c94bcc6)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\beamerbasemodes.sty"
 Package: beamerbasemodes 2012/04/15 (rcs-revision cc6557182d97)
 \beamer@tempbox=\box26
@@ -220,7 +218,7 @@ File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
-Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
+Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
@@ -380,7 +378,7 @@ Package: xxcolor 2003/10/24 ver 0.1
 \XC@countmixins=\count118
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
-Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
+Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
@@ -425,6 +423,9 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
+Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
+)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
@@ -433,42 +434,43 @@ Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 \Hy@pagecounter=\count120
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
-File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count121
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `bookmarks' set `true' on input line 3941.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 3941.
-Package hyperref Info: Option `implicit' set `false' on input line 3941.
-Package hyperref Info: Hyper figures OFF on input line 4062.
-Package hyperref Info: Link nesting OFF on input line 4067.
-Package hyperref Info: Hyper index ON on input line 4070.
-Package hyperref Info: Plain pages OFF on input line 4077.
-Package hyperref Info: Backreferencing OFF on input line 4082.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4319.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4319.
+Package hyperref Info: Option `implicit' set `false' on input line 4319.
+Package hyperref Info: Hyper figures OFF on input line 4443.
+Package hyperref Info: Link nesting OFF on input line 4448.
+Package hyperref Info: Hyper index ON on input line 4451.
+Package hyperref Info: Plain pages OFF on input line 4458.
+Package hyperref Info: Backreferencing OFF on input line 4463.
 Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
-Package hyperref Info: Bookmarks ON on input line 4300.
+Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count122
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4653.
+LaTeX Info: Redefining \url on input line 5041.
+\XeTeXLinkMargin=\dimen164
 \Fld@menulength=\count123
-\Field@Width=\dimen164
-\Fld@charsize=\dimen165
-Package hyperref Info: Hyper figures OFF on input line 5773.
-Package hyperref Info: Link nesting OFF on input line 5778.
-Package hyperref Info: Hyper index ON on input line 5781.
-Package hyperref Info: backreferencing OFF on input line 5788.
-Package hyperref Info: Link coloring OFF on input line 5793.
-Package hyperref Info: Link coloring with OCG OFF on input line 5798.
-Package hyperref Info: PDF/A mode OFF on input line 5803.
-LaTeX Info: Redefining \ref on input line 5843.
-LaTeX Info: Redefining \pageref on input line 5847.
+\Field@Width=\dimen165
+\Fld@charsize=\dimen166
+Package hyperref Info: Hyper figures OFF on input line 6295.
+Package hyperref Info: Link nesting OFF on input line 6300.
+Package hyperref Info: Hyper index ON on input line 6303.
+Package hyperref Info: backreferencing OFF on input line 6310.
+Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring with OCG OFF on input line 6320.
+Package hyperref Info: PDF/A mode OFF on input line 6325.
+LaTeX Info: Redefining \ref on input line 6365.
+LaTeX Info: Redefining \pageref on input line 6369.
 \Hy@abspage=\count124
 
 
@@ -479,7 +481,7 @@ Package hyperref Message: Stopped early.
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
-File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
+File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count125
 \c@bookmark@seq@number=\count126
 
@@ -497,23 +499,19 @@ ty.sty"
 Package: beamerbasecompatibility 2012/05/01  (rcs-revision 67c48b3b652d)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\beamerbasefont.sty"
-Package: beamerbasefont 2012/05/10  (rcs-revision a0b4f9f91ee9)
+Package: beamerbasefont 2012/09/19  (rcs-revision 733629cd0c6c)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
-Package: amssymb 2009/06/22 v3.00
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
-Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks25
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
-))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\sansmathaccent\sansmathaccent.sty
-"
-Package: sansmathaccent 2012/04/26
-))
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\beamerbasetranslator.
 sty"
 Package: beamerbasetranslator 2010/06/11  (rcs-revision 85fd1cc7fc42)
@@ -533,7 +531,7 @@ Package: beamerbasetwoscreens 2010/05/01  (rcs-revision efa082c6111d)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\beamerbaseoverlay.sty
 "
-Package: beamerbaseoverlay 2012/04/03  (rcs-revision 45744d9ae88b)
+Package: beamerbaseoverlay 2012/11/11  (rcs-revision 6afbc49b1109)
 \beamer@argscount=\count127
 \beamer@lastskipcover=\skip47
 \beamer@trivlistdepth=\count128
@@ -543,7 +541,7 @@ Package: beamerbasetitle 2010/09/21  (rcs-revision f0446ed0b6ae)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\beamerbasesection.sty
 "
-Package: beamerbasesection 2012/02/22  (rcs-revision 9a2581f9efb6)
+Package: beamerbasesection 2013/01/04  (rcs-revision 54309ceef997)
 \c@lecture=\count129
 \c@part=\count130
 \c@section=\count131
@@ -551,24 +549,25 @@ Package: beamerbasesection 2012/02/22  (rcs-revision 9a2581f9efb6)
 \c@subsubsection=\count133
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\beamerbaseframe.sty
 "
-Package: beamerbaseframe 2011/09/12  (rcs-revision 70f9d8411e54)
+Package: beamerbaseframe 2012/12/26  (rcs-revision 1443917db2cf)
 \beamer@framebox=\box40
 \beamer@frametitlebox=\box41
 \beamer@zoombox=\box42
 \beamer@zoomcount=\count134
 \beamer@zoomframecount=\count135
-\beamer@frametextheight=\dimen166
+\beamer@frametextheight=\dimen167
 \c@subsectionslide=\count136
 \beamer@frametopskip=\skip48
 \beamer@framebottomskip=\skip49
 \beamer@frametopskipautobreak=\skip50
 \beamer@framebottomskipautobreak=\skip51
 \beamer@envbody=\toks26
+\framewidth=\dimen168
 \c@framenumber=\count137
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\beamerbaseverbatim.st
 y"
-Package: beamerbaseverbatim 2011/09/12  (rcs-revision 70f9d8411e54)
+Package: beamerbaseverbatim 2012/08/30  (rcs-revision dfdb135076b3)
 \beamer@verbatimfileout=\write4
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\beamerbaseframesize.s
@@ -576,23 +575,23 @@ ty"
 Package: beamerbaseframesize 2011/09/12  (rcs-revision 70f9d8411e54)
 \beamer@splitbox=\box43
 \beamer@autobreakcount=\count138
-\beamer@autobreaklastheight=\dimen167
+\beamer@autobreaklastheight=\dimen169
 \beamer@frametitletoks=\toks27
 \beamer@framesubtitletoks=\toks28
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\beamerbaseframecompon
 ents.sty"
-Package: beamerbaseframecomponents 2012/03/07  (rcs-revision 9f094699ce15)
+Package: beamerbaseframecomponents 2012/09/13  (rcs-revision dcd846607320)
 \beamer@footins=\box44
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\beamerbasecolor.sty"
 Package: beamerbasecolor 2010/06/06  (rcs-revision d1a9b48be06d)
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\beamerbasenotes.sty
 "
-Package: beamerbasenotes 2010/05/01  (rcs-revision efa082c6111d)
+Package: beamerbasenotes 2012/12/19  (rcs-revision 1686da3db3c9)
 \beamer@frameboxcopy=\box45
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\beamerbasetoc.sty"
-Package: beamerbasetoc 2012/02/28  (rcs-revision 138681b92320)
+Package: beamerbasetoc 2012/10/02  (rcs-revision 5ed0f4010e8a)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\beamerbasetemplates.s
 ty"
@@ -610,16 +609,16 @@ Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
 \bmb@boxshadow=\box48
 \bmb@boxshadowball=\box49
 \bmb@boxshadowballlarge=\box50
-\bmb@temp=\dimen168
-\bmb@dima=\dimen169
-\bmb@dimb=\dimen170
-\bmb@prevheight=\dimen171
+\bmb@temp=\dimen170
+\bmb@dima=\dimen171
+\bmb@dimb=\dimen172
+\bmb@prevheight=\dimen173
 )
-\beamer@blockheadheight=\dimen172
+\beamer@blockheadheight=\dimen174
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\beamerbaselocalstruct
 ure.sty"
-Package: beamerbaselocalstructure 2012/03/11  (rcs-revision 96ee3b332f84)
+Package: beamerbaselocalstructure 2012/11/13  (rcs-revision ddfba79dac19)
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\enumerate.sty"
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks30
@@ -632,46 +631,46 @@ Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\beamerbasenavigation.
 sty"
 Package: beamerbasenavigation 2012/04/03  (rcs-revision 42a0f21a412d)
-\beamer@section@min@dim=\dimen173
+\beamer@section@min@dim=\dimen175
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\beamerbasetheorems.st
 y"
 Package: beamerbasetheorems 2010/06/06  (rcs-revision 7e7cc5e53e9d)
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
-Package: amsmath 2000/07/18 v2.13 AMS math features
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip54
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks31
-\ex@=\dimen174
+\ex@=\dimen176
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen175
+\pmbraise@=\dimen177
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count141
-LaTeX Info: Redefining \frac on input line 211.
+LaTeX Info: Redefining \frac on input line 210.
 \uproot@=\count142
 \leftroot@=\count143
-LaTeX Info: Redefining \overline on input line 307.
+LaTeX Info: Redefining \overline on input line 306.
 \classnum@=\count144
 \DOTSCASE@=\count145
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box51
 \strutbox@=\box52
-\big@size=\dimen176
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\big@size=\dimen178
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count146
 \c@MaxMatrixCols=\count147
 \dotsspace@=\muskip11
@@ -682,20 +681,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \column@=\count151
 \maxfields@=\count152
 \andhelp@=\toks33
-\eqnshift@=\dimen177
-\alignsep@=\dimen178
-\tagshift@=\dimen179
-\tagwidth@=\dimen180
-\totwidth@=\dimen181
-\lineht@=\dimen182
+\eqnshift@=\dimen179
+\alignsep@=\dimen180
+\tagshift@=\dimen181
+\tagwidth@=\dimen182
+\totwidth@=\dimen183
+\lineht@=\dimen184
 \@envbody=\toks34
 \multlinegap=\skip55
 \multlinetaggap=\skip56
 \mathdisplay@stack=\toks35
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ams\classes\amsthm.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amscls\amsthm.sty"
 Package: amsthm 2004/08/06 v2.20
 \thm@style=\toks36
 \thm@bodyfont=\toks37
@@ -718,28 +717,29 @@ Package: beamerthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\themes\font\beamerfon
 tthemedefault.sty"
-Package: beamerfontthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+Package: beamerfontthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\themes\color\beamerco
 lorthemedefault.sty"
-Package: beamercolorthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+Package: beamercolorthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\themes\inner\beamerin
 nerthemedefault.sty"
 Package: beamerinnerthemedefault 2012/05/01  (rcs-revision 67c48b3b652d)
-\beamer@dima=\dimen183
-\beamer@dimb=\dimen184
+\beamer@dima=\dimen185
+\beamer@dimb=\dimen186
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\themes\outer\beamerou
 terthemedefault.sty"
-Package: beamerouterthemedefault 2010/06/17  (rcs-revision d02a7cf4d8ae)
+Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\framed\framed.sty"
-Package: framed 2007/10/04 v 0.95: framed or shaded text with page breaks
-\fb@frw=\dimen185
-\fb@frh=\dimen186
-\FrameRule=\dimen187
-\FrameSep=\dimen188
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip60
+\fb@frw=\dimen187
+\fb@frh=\dimen188
+\FrameRule=\dimen189
+\FrameSep=\dimen190
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\alltt.sty"
 Package: alltt 1997/06/16 v2.0g defines alltt environment
@@ -762,19 +762,21 @@ Package: beamerinnerthemerounded 2010/06/17  (rcs-revision d02a7cf4d8ae)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\themes\outer\beamerou
 terthemeinfolines.sty"
-Package: beamerouterthemeinfolines 2010/07/10  (rcs-revision 445340293dde)
+Package: beamerouterthemeinfolines 2012/10/16  (rcs-revision 51a8c72084af)
 ))
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption.sty"
-Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\caption\caption3.sty"
-Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
-\captionmargin=\dimen189
-\captionmargin@=\dimen190
-\captionwidth=\dimen191
-\caption@indent=\dimen192
-\caption@parindent=\dimen193
-\caption@hangindent=\dimen194
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
+\captionmargin=\dimen191
+\captionmargin@=\dimen192
+\captionwidth=\dimen193
+\caption@tempdima=\dimen194
+\caption@indent=\dimen195
+\caption@parindent=\dimen196
+\caption@hangindent=\dimen197
 )
 \c@ContinuedFloat=\count154
 Package caption Info: beamer document class.
@@ -784,8 +786,8 @@ Package caption Info: Hyperref support is turned off
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip60
-\bibsep=\skip61
+\bibhang=\skip61
+\bibsep=\skip62
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count155
 )
@@ -797,22 +799,21 @@ Package: beamercolorthemestructure 2010/06/17  (rcs-revision d02a7cf4d8ae)
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
-("C:\Users\Toshiba\Google Drive\Teaching\ML211\Econometrics\Knitr\Eviews\Eviews
-.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 74.
-LaTeX Font Info:    ... okay on input line 74.
+(C:\Users\rh49\Projects\Econometrics\Knitr\Eviews\Eviews.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -851,86 +852,77 @@ LaTeX Font Info:    ... okay on input line 74.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count156
-\scratchdimen=\dimen195
+\scratchdimen=\dimen198
 \scratchbox=\box53
 \nofMPsegments=\count157
 \nofMParguments=\count158
 \everyMPshowfont=\toks42
 \MPscratchCnt=\count159
-\MPscratchDim=\dimen196
+\MPscratchDim=\dimen199
 \MPnumerator=\count160
 \makeMPintoPDFobject=\count161
 \everyMPtoPDFconversion=\toks43
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 74.
+Package hyperref Info: Link coloring OFF on input line 79.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
-Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count162
 )
-LaTeX Info: Redefining \ref on input line 74.
-LaTeX Info: Redefining \pageref on input line 74.
-LaTeX Info: Redefining \nameref on input line 74.
+LaTeX Info: Redefining \ref on input line 79.
+LaTeX Info: Redefining \pageref on input line 79.
+LaTeX Info: Redefining \nameref on input line 79.
 
-("C:\Users\Toshiba\Google Drive\Teaching\ML211\Econometrics\Knitr\Eviews\Eviews
-.out")
-("C:\Users\Toshiba\Google Drive\Teaching\ML211\Econometrics\Knitr\Eviews\Eviews
-.out")
+(C:\Users\rh49\Projects\Econometrics\Knitr\Eviews\Eviews.out)
+(C:\Users\rh49\Projects\Econometrics\Knitr\Eviews\Eviews.out)
 \@outlinefile=\write5
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 74.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 79.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 74.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 79.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 74.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 74.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 74.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 74.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 74.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 79.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 74.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 74.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 74.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 79.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 74.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 74.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 74.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 79.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 74.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 74.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 79.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 74.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 79.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 74.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 74.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 74.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 74.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 74.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 79.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 74.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 74.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
-(Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 7
-4.
-LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-74.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 79.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\beamer\base\translator\dicts\tran
 slator-basic-dictionary\translator-basic-dictionary-English.dict"
@@ -956,96 +948,85 @@ Dictionary: translator-numbers-dictionary, Language: English
 slator-theorem-dictionary\translator-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 74.
+LaTeX Info: Redefining \includegraphics on input line 79.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
-("C:\Users\Toshiba\Google Drive\Teaching\ML211\Econometrics\Knitr\Eviews\Eviews
-.nav")
+(C:\Users\rh49\Projects\Econometrics\Knitr\Eviews\Eviews.nav)
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 78.
+(Font)              size <5> substituted on input line 83.
 
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-("C:\Users\Toshiba\Google Drive\Teaching\ML211\Econometrics\Knitr\Eviews\Eviews
-.toc"
+(C:\Users\rh49\Projects\Econometrics\Knitr\Eviews\Eviews.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 3.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 3.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 3.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\sansmathaccent\ot1mathkerncmss.fd
-"
-File: ot1mathkerncmss.fd 2012/04/26
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )) [2
 
-] <./Figures/Import.png, id=116, 403.5075pt x 309.40594pt>
+]
+<./Figures/Import.png, id=116, 403.5075pt x 309.40594pt>
 File: ./Figures/Import.png Graphic file (type png)
 
 <use ./Figures/Import.png>
-Package pdftex.def Info: ./Figures/Import.png used on input line 91.
+Package pdftex.def Info: ./Figures/Import.png used on input line 96.
 (pdftex.def)             Requested size: 263.90837pt x 202.35622pt.
  [3
 
- <C:/Users/Toshiba/Google Drive/Teaching/ML211/Econometrics/Knitr/Eviews/Figure
-s/Import.png>]
+ <C:/Users/rh49/Projects/Econometrics/Knitr/Eviews/Figures/Import.png>]
 <./Figures/Returncode.png, id=146, 115.93312pt x 51.94406pt>
 File: ./Figures/Returncode.png Graphic file (type png)
 
 <use ./Figures/Returncode.png>
-Package pdftex.def Info: ./Figures/Returncode.png used on input line 101.
+Package pdftex.def Info: ./Figures/Returncode.png used on input line 106.
 (pdftex.def)             Requested size: 241.97723pt x 108.405pt.
  [4
 
- <C:/Users/Toshiba/Google Drive/Teaching/ML211/Econometrics/Knitr/Eviews/Figure
-s/Returncode.png>]
+ <C:/Users/rh49/Projects/Econometrics/Knitr/Eviews/Figures/Returncode.png>]
 <./Figures/Returncodefull.png, id=174, 367.3725pt x 383.18156pt>
 File: ./Figures/Returncodefull.png Graphic file (type png)
 
 <use ./Figures/Returncodefull.png>
-Package pdftex.def Info: ./Figures/Returncodefull.png used on input line 109.
+Package pdftex.def Info: ./Figures/Returncodefull.png used on input line 114.
 (pdftex.def)             Requested size: 207.86855pt x 216.81pt.
 
-Overfull \vbox (6.57005pt too high) detected at line 109
+Overfull \vbox (6.57005pt too high) detected at line 114
  []
 
 [5
 
- <C:/Users/Toshiba/Google Drive/Teaching/ML211/Econometrics/Knitr/Eviews/Figure
-s/Returncodefull.png>]
-("C:\Users\Toshiba\Google Drive\Teaching\ML211\Econometrics\Knitr\Eviews\Eviews
-.vrb") [6
+ <C:/Users/rh49/Projects/Econometrics/Knitr/Eviews/Figures/Returncodefull.png>]
+ (C:\Users\rh49\Projects\Econometrics\Knitr\Eviews\Eviews.vrb) [6
 
-] <./Figures/equation.png, id=228, 174.6525pt x 86.57344pt>
+]
+<./Figures/equation.png, id=228, 174.6525pt x 86.57344pt>
 File: ./Figures/equation.png Graphic file (type png)
 
 <use ./Figures/equation.png>
-Package pdftex.def Info: ./Figures/equation.png used on input line 129.
+Package pdftex.def Info: ./Figures/equation.png used on input line 134.
 (pdftex.def)             Requested size: 108.405pt x 53.73573pt.
  [7
 
- <C:/Users/Toshiba/Google Drive/Teaching/ML211/Econometrics/Knitr/Eviews/Figure
-s/equation.png>]
+ <C:/Users/rh49/Projects/Econometrics/Knitr/Eviews/Figures/equation.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 131.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `superscript' on input line 131.
+(hyperref)                removing `math shift' on input line 136.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 131.
+(hyperref)                removing `superscript' on input line 136.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 136.
 
 [8
 
@@ -1070,82 +1051,82 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 ] [18
 
 ]
-<./Figures/Coef.pdf, id=547, 844.15375pt x 597.23125pt>
+<./Figures/Coef.pdf, id=546, 844.15375pt x 597.23125pt>
 File: ./Figures/Coef.pdf Graphic file (type pdf)
 
 <use ./Figures/Coef.pdf>
-Package pdftex.def Info: ./Figures/Coef.pdf used on input line 178.
+Package pdftex.def Info: ./Figures/Coef.pdf used on input line 183.
 (pdftex.def)             Requested size: 317.98755pt x 224.9727pt.
 
-Overfull \vbox (21.53275pt too high) detected at line 178
+Overfull \vbox (21.53275pt too high) detected at line 183
  []
 
 [19
 
- <C:/Users/Toshiba/Google Drive/Teaching/ML211/Econometrics/Knitr/Eviews/Figure
-s/Coef.pdf>] [20
+ <C:/Users/rh49/Projects/Econometrics/Knitr/Eviews/Figures/Coef.pdf>]
+[20
 
 ] [21
 
-]
-<./Figures/Se.png, id=639, 376.40625pt x 316.18124pt>
+] <./Figures/Se.png, id=637, 376.40625pt x 316.18124pt>
 File: ./Figures/Se.png Graphic file (type png)
- <use ./Figures/Se.png>
-Package pdftex.def Info: ./Figures/Se.png used on input line 205.
+
+<use ./Figures/Se.png>
+Package pdftex.def Info: ./Figures/Se.png used on input line 210.
 (pdftex.def)             Requested size: 258.11241pt x 216.81pt.
 
-Overfull \vbox (6.57005pt too high) detected at line 205
+Overfull \vbox (6.57005pt too high) detected at line 210
  []
 
 [22
 
- <C:/Users/Toshiba/Google Drive/Teaching/ML211/Econometrics/Knitr/Eviews/Figure
-s/Se.png>] <./Figures/tstat.png, id=667, 376.40625pt x 316.18124pt>
+ <C:/Users/rh49/Projects/Econometrics/Knitr/Eviews/Figures/Se.png>]
+<./Figures/tstat.png, id=665, 376.40625pt x 316.18124pt>
 File: ./Figures/tstat.png Graphic file (type png)
 
 <use ./Figures/tstat.png>
-Package pdftex.def Info: ./Figures/tstat.png used on input line 213.
+Package pdftex.def Info: ./Figures/tstat.png used on input line 218.
 (pdftex.def)             Requested size: 258.11241pt x 216.81pt.
 
-Overfull \vbox (6.57005pt too high) detected at line 213
+Overfull \vbox (6.57005pt too high) detected at line 218
  []
 
 [23
 
- <C:/Users/Toshiba/Google Drive/Teaching/ML211/Econometrics/Knitr/Eviews/Figure
-s/tstat.png>] <./Figures/pval.png, id=694, 376.40625pt x 316.18124pt>
+ <C:/Users/rh49/Projects/Econometrics/Knitr/Eviews/Figures/tstat.png>]
+<./Figures/pval.png, id=692, 376.40625pt x 316.18124pt>
 File: ./Figures/pval.png Graphic file (type png)
 
 <use ./Figures/pval.png>
-Package pdftex.def Info: ./Figures/pval.png used on input line 221.
+Package pdftex.def Info: ./Figures/pval.png used on input line 226.
 (pdftex.def)             Requested size: 258.11241pt x 216.81pt.
 
-Overfull \vbox (6.57005pt too high) detected at line 221
+Overfull \vbox (6.57005pt too high) detected at line 226
  []
 
 [24
 
- <C:/Users/Toshiba/Google Drive/Teaching/ML211/Econometrics/Knitr/Eviews/Figure
-s/pval.png>] [25
+ <C:/Users/rh49/Projects/Econometrics/Knitr/Eviews/Figures/pval.png>]
+[25
 
 ] [26
 
-]
-<./Figures/DW.png, id=774, 376.40625pt x 316.18124pt>
+] <./Figures/DW.png, id=772, 376.40625pt x 316.18124pt>
 File: ./Figures/DW.png Graphic file (type png)
- <use ./Figures/DW.png>
-Package pdftex.def Info: ./Figures/DW.png used on input line 254.
+
+<use ./Figures/DW.png>
+Package pdftex.def Info: ./Figures/DW.png used on input line 259.
 (pdftex.def)             Requested size: 258.11241pt x 216.81pt.
 
-Overfull \vbox (6.57005pt too high) detected at line 254
+Overfull \vbox (6.57005pt too high) detected at line 259
  []
 
 [27
 
- <C:/Users/Toshiba/Google Drive/Teaching/ML211/Econometrics/Knitr/Eviews/Figure
-s/DW.png>] [28
+ <C:/Users/rh49/Projects/Econometrics/Knitr/Eviews/Figures/DW.png>] [28
 
-] [29
+]
+[29
 
 ] [30
 
@@ -1153,21 +1134,20 @@ s/DW.png>] [28
 
 ] [32
 
-]
-<./Figures/resid.png, id=932, 341.02406pt x 299.61937pt>
+] <./Figures/resid.png, id=930, 341.02406pt x 299.61937pt>
 File: ./Figures/resid.png Graphic file (type png)
 
 <use ./Figures/resid.png>
-Package pdftex.def Info: ./Figures/resid.png used on input line 275.
+Package pdftex.def Info: ./Figures/resid.png used on input line 280.
 (pdftex.def)             Requested size: 246.77559pt x 216.81pt.
 
-Overfull \vbox (6.57005pt too high) detected at line 275
+Overfull \vbox (6.57005pt too high) detected at line 280
  []
 
 [33
 
- <C:/Users/Toshiba/Google Drive/Teaching/ML211/Econometrics/Knitr/Eviews/Figure
-s/resid.png>] [34
+ <C:/Users/rh49/Projects/Econometrics/Knitr/Eviews/Figures/resid.png>]
+[34
 
 ] [35
 
@@ -1183,13 +1163,11 @@ No file Eviews.bbl.
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 291.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 291.
-
-("C:\Users\Toshiba\Google Drive\Teaching\ML211\Econometrics\Knitr\Eviews\Eviews
-.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 291.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 291.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 296.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 296.
+ (C:\Users\rh49\Projects\Econometrics\Knitr\Eviews\Eviews.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 296.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 296.
 Package rerunfilecheck Info: File `Eviews.out' has not changed.
 (rerunfilecheck)             Checksum: 87A5E86323B57BF534854CE74E1F0DFF;302.
 
@@ -1197,16 +1175,16 @@ Package rerunfilecheck Info: File `Eviews.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 291.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 296.
  ) 
 Here is how much of TeX's memory you used:
- 17320 strings out of 494045
- 324847 string characters out of 3145963
- 398381 words of memory out of 3000000
- 20101 multiletter control sequences out of 15000+200000
- 15636 words of font info for 57 fonts, out of 3000000 for 9000
- 715 hyphenation exceptions out of 8191
- 55i,16n,60p,498b,601s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 17486 strings out of 493921
+ 326947 string characters out of 3144879
+ 398698 words of memory out of 3000000
+ 20273 multiletter control sequences out of 15000+200000
+ 15013 words of font info for 56 fonts, out of 3000000 for 9000
+ 841 hyphenation exceptions out of 8191
+ 55i,16n,60p,483b,601s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/
@@ -1221,9 +1199,9 @@ x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Program Files (x
 6)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)
 /MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Eviews.pdf (38 pages, 497546 bytes).
+Output written on Eviews.pdf (38 pages, 496135 bytes).
 PDF statistics:
- 1163 PDF objects out of 1200 (max. 8388607)
+ 1160 PDF objects out of 1200 (max. 8388607)
  83 named destinations out of 1000 (max. 500000)
  165 words of extra memory for PDF output out of 10000 (max. 10000000)
 
