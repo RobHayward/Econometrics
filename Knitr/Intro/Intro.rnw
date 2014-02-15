@@ -114,27 +114,60 @@ Minimise the residuals
 Min\sum_{t=1}^{t=T}& u_t^2 \\
 Min\sum_{t=1}^{t=T}& (y_t - a - bx_t)^2 
 \end{align*}
-Take, partial derivative to get the condictions.
+Take, partial derivative to get the conditions.
 \end{frame}
 
 \begin{frame}{Solution 2}
 \begin{align*}
-\frac{\delta u}{\delta a} = \sum_{t=1}^{t=T} 2(y_t - a - bX_t) =& 0\\
+\frac{\delta u}{\delta a} = \sum_{t=1}^{t=T} 2(y_t - a - bx_t) =& 0\\
 \frac{\delta u}{\delta b} = \sum_{t=1}^{t=T} 2x_t(y_t - a - bx_t) =& 0
 \end{align*}
-Re-arrange
+
+The following can be skipped.  It comes from the appendix to chapter 4 of Econometrics (Stock and Watson)
+
+\end{frame}
+
+\begin{frame}{Solution 3}
+collecting terms and dividing by n.  Remember that summing and dividing by T is equal to the mean. 
+\begin{equation}\label{ols1}
+\bar{y} = a + b\bar{x} = 0
+\end{equation}
+and
+\begin{equation}\label{ols2}
+\frac{1}{T} \sum_{t =1}^{T}x_ty_t - a\bar{x} -b\frac{1}{T}\sum_{t-1}^T x_t^2 =0
+\end{equation}
+Substitute Equation \ref{ols1} into \ref{ols2}
 \begin{align*}
-\hat{b} =& \frac{\sum x \sum y - \frac{\sum x \sum y}{T}}{\sum x^2 - \frac{(\sum x)^2}{T}}\\
-\hat{a} = & \bar{Y} - b\bar{X}
+\frac{1}{T} \sum x_t y_t - \left (\bar{y} - b\bar{x} \right)\bar{x} - b\frac{1}{T}\sum_{t-1}^T x_t^2
 \end{align*}
 \end{frame}
+
+\begin{frame}{Solution 4}
+\begin{align*}
+\frac{1}{T} \sum x_t y_t - \bar{y}\bar{x} + b \bar{x}^2 - b\frac{1}{T}\sum x^2\\
+\frac{1}{T} \sum x_t y_t - \bar{y}\bar{x} + b \left (\bar{x}^2 - \frac{1}{T}\sum x^2 \right)\\
+b = \frac{\frac{1}{T} \sum x_t y_t -\bar{y}\bar{x}}{\frac{1}{T} \sum x^2 -\bar{x}^2}\\
+b= \frac{\sum (x_t  - \bar{x})(y_t - \bar{y})}{\sum (x_t - \bar{x})^2}
+\end{align*}
+\end{frame}
+% as \sum(x_t - \bar{x}) = &\sum x_t^2 - 2\bar{x}\sum x_t + Tx^2\\
+% and =& \sum x_t^2 - 2\bar{x} \left (T \frac{1}{T} \sum x_t \right ) +Tx^2\\
+% =& \sum x_t^2 - 2T\bar{x}^2 + T \bar{x}^2\\
+% =& \sum x_t^2 - T\bar{x}^2 
+% and
+% \sum (x_t - \bar{x})(y_t - \bar(y}) =& \sum x_t y_t - T \bar{x}\bar{y}\\
+%= & \sum x_t y_t - \frac{\sum x_t y_t}{T}//
+% From pages 84 and 85 of R. Carter Hill Principles of Econometrics.  
+
+
+
 
 \begin{frame}{Solution: matrix form}
 In matrix form
 \begin{align*}
 \mathbf{y} =& \mathbf{X \beta} + \mathbf{u}\\
 \mathbf{u} =& \mathbf{y} - \mathbf{X\beta}\\
-\mathbf{u}` \mathbf{u} =& (\mathbf{X \beta} + \mathbf{u})`(\mathbf{X \beta} + \mathbf{u})\\ 
+\mathbf{u}' \mathbf{u} =& (\mathbf{X \beta} + \mathbf{u})'(\mathbf{X \beta} + \mathbf{u})\\ 
 \end{align*}
 Taking derivative and re-arranging (see textbook for proof)
 \begin{align*}

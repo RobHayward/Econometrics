@@ -1,6 +1,5 @@
 \beamer@endinputifotherversion {3.19pt}
 \beamer@sectionintoc {1}{Modelling}{3}{0}{1}
 \beamer@sectionintoc {2}{Ordinary Least Squares}{22}{0}{2}
-\beamer@sectionintoc {3}{OLS Assumptions}{31}{0}{3}
-\beamer@sectionintoc {4}{Identifying and dealing with problems}{45}{0}{4}
-\beamer@sectionintoc {5}{Further Reading}{67}{0}{5}
+\beamer@sectionintoc {3}{OLS Assumptions}{33}{0}{3}
+\beamer@sectionintoc {4}{Identifying and dealing with problems}{47}{0}{4}
