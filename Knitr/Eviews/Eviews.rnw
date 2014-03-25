@@ -138,13 +138,13 @@ Need to estimate the standard deviation of the coefficient estimate
 \end{block}
 \end{frame}
 
-\begin{frame}{Estimating the distribution of the parameter estimate}
-Covariance matrix of estimated coefficiencts is
-$Var(b) = s^2(X'X)^{-1}$\\
-$s^2 = \frac{\hat{\varepsilon}'\hat{\varepsilon}}{(T - k)}$\\
-$\hat{\varepsilon} = y - Xb$\\
-$SE(\hat{\beta_1}) = \sqrt{Var(b)^2}$
-\end{frame}
+%\begin{frame}{Estimating the distribution of the parameter estimate}
+%Covariance matrix of estimated coefficiencts is
+%$Var(b) = s^2(X'X)^{-1}$\\
+%$s^2 = \frac{\hat{\varepsilon}'\hat{\varepsilon}}{(T - k)}$\\
+%$\hat{\varepsilon} = y - Xb$\\
+%$SE(\hat{\beta_1}) = \sqrt{Var(b)^2}$
+%\end{frame}
 
 \begin{frame}{Eview output 1}
 \graphicspath{{./Figures/}}
@@ -197,7 +197,6 @@ DW statistics close to two suggest no autocorrlation of the residuals.
 
 \begin{frame}{Durbin-Watson Output}
 \graphicspath{{./Figures/}}
-\frametitle{Standard Errors}
 \begin{center}
 \includegraphics[height = 3 in]{DW}
 \end{center}
@@ -235,7 +234,7 @@ Inspection and tests of the residuals will allow us to assess whether there are 
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Bibliography}
-\bibliography{myref}
-\end{frame}
+%\begin{frame}{Bibliography}
+%\bibliography{myref}
+%\end{frame}
 \end{document}
